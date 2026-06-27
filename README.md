@@ -2,10 +2,6 @@
 
 A modern and responsive Weather Application built with **React.js** that displays real-time weather information for any city using the **OpenWeatherMap API**.
 
-## 📸 Preview
-
-![Weather App Screenshot](./preview.png)
-
 ---
 
 ## ✨ Features
