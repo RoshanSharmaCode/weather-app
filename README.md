@@ -1,16 +1,108 @@
-# React + Vite
+# 🌤️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Weather Application built with **React.js** that displays real-time weather information for any city using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Weather App Screenshot](./preview.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- 🔍 Search weather by city name
+- 🌡️ Real-time temperature
+- ☁️ Weather condition icons
+- 💧 Humidity information
+- 🌬️ Wind speed display
+- 📱 Fully responsive UI
+- ⚡ Fast and lightweight
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- OpenWeatherMap API
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/weather-app-react.git
+```
+
+Go to the project directory
+
+```bash
+cd weather-app-react
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root.
+
+```env
+VITE_APP_ID=YOUR_OPENWEATHERMAP_API_KEY
+```
+
+Get your API key from:
+
+https://openweathermap.org/api
+
+---
+
+## 📁 Project Structure
+
+```
+weather-app/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+## 🌐 API Used
+
+**OpenWeatherMap API**
+
+Provides:
+
+- Current Weather
+- Temperature
+- Humidity
+- Wind Speed
+- Weather Icons
+
+Documentation:
+https://openweathermap.org/api
+
